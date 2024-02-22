@@ -12,7 +12,9 @@ FUNC: //NAME// //RETURN_TYPE//(//PARAMETER//) {
     return //VAR//OBJECT //NAME//;
 }
 
+FUNC: MAIN void(){
 
+}
 ## variables
 string <br>
 integer <br>
@@ -32,6 +34,6 @@ byte <br>
 ## Basic functions
 - logging Dreamscape.Log(//Content//)
 - Main function MAIN void (){ }
-- 
+- if/elseIf if(//VALUE1// && || == != //VALUE2//, //VALUE3 OPT//){}
 - 
 ## LOGO
