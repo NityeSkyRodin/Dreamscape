@@ -5,14 +5,16 @@
 ## functions
 //TEMPLATE//
 
-//public/private/protected//: //RETURN_TYPE// //NAME//{
+FUNC: //NAME// //RETURN_TYPE//(//PARAMETER//) {
 
     string name = "name";
 
     return //VAR//OBJECT //NAME//;
 }
 
+FUNC: MAIN void(){
 
+}
 ## variables
 string <br>
 integer <br>
@@ -25,12 +27,13 @@ hugeInteger <br>
 bit <br>
 byte <br>
 
-## classes
-NOTE: private classes can only be used for INNER CLASSES
+## Connecting different files
+-- #importDream //filename//
+-- #importFiles //filename//
 
-//public/private/protected//: //NAME// USES: //NAMES USES// {
-
-}
-
+## Basic functions
+- logging Dreamscape.Log(//Content//)
+- Main function MAIN void (){ }
+- if/elseIf if(//VALUE1// && || == != //VALUE2//, //VALUE3 OPT//){}
+- 
 ## LOGO
-![alternatieve tekst](SKLNLANG.jpeg)
